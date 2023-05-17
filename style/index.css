@@ -1,0 +1,91 @@
+.header{
+  background-image: url(/DESAFIO/images/spidermanheader.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+
+}
+
+.section-quem-somos{
+
+  /* VERIFICAR SE ESTA É A MELHOR FORMA DE COLOCAR O TAMANHO DA SECTION */
+  /* height: 700px; */
+  margin: 0 auto;
+  background-image: url(/DESAFIO/images/thor_header.jpg);
+
+  
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+      
+}
+
+.article-quem-somos{
+
+  /* FLOAT É UMA BOA OPÇÃO? */
+
+  float: right; 
+  max-width: 600px;
+  padding: 80px;
+  margin-right: 5%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  
+
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 800px){
+  .article-quem-somos{
+      text-align: center;
+      margin: auto;
+      max-width: 400px;
+      margin-top: 10%;
+  }
+}
+
+/* Parte do título = Topo da home  */
+
+
+/* FALTA COLOCAR O HOVER - AINDA NÃO CONSEGUI ENCONTRAR COMO FAZER */
+
+.section-title{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 2rem;
+  
+}
+
+/* titulo em branco da section "quem somos" da home */
+
+#white{
+  color: #fff;
+  font-size: 2rem;
+}
+
+#white::after{
+  display: block;
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color:#fff ;
+  margin: 8px auto;
+}
+
+.section-title::after{
+  display: block;
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: #fe7467 ;
+  margin: 8px auto;
+  
+}
+
+
